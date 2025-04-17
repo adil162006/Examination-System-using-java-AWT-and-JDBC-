@@ -5,7 +5,7 @@ public class Database {
     private static Connection connect() {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver"); // MySQL JDBC Driver
-            return DriverManager.getConnection("jdbc:mysql://localhost:3306/exam_system", "root", "ADIL1601");
+            return DriverManager.getConnection("jdbc:mysql://localhost:3306/exam_system", "Username", "YOUR_PASSWORD");
         } catch (Exception e) {
             e.printStackTrace();
             return null;
