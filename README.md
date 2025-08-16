@@ -21,6 +21,5 @@ View own marks
 🛠️ Technologies Used
 Java AWT (Abstract Window Toolkit)
 
-[SQLite / MySQL / File-based storage] for data
+MySQL for data
 
-Basic MVC structure (optional if you followed it)
